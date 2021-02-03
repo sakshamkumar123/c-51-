@@ -1,0 +1,40 @@
+h1{
+    color:brown;
+}
+
+.header{
+    background-color: cadetblue;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color:#808080;
+    background-image: url("background.jpg");
+    
+    background-repeat: no-repeat;
+    background-size:120%;
+    border-style:solid;
+    border-color: red;
+
+    margin: 20px 40px 20px 40px;
+
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family:  Arial;
+}
